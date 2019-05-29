@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-svale=1"/>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/yemian.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<!--主题房间头-->
+<div class="container-fluid p-0">
+    <!--导航栏-->
+    <div class="navbar  navbar-expand-lg navbar-light dhl_bg daohanglan p-0 pl-3 pr-3 navbar-fixed-top container ">
+        <!-- 导航第一项，不折叠，单独写-->
+        <a href="#" class="navbar-brand text-info m-0 p-0 h1"><img src="img/biaozhi.png"/></a>
+        <!-- 小屏幕时，右侧折叠按钮，按钮上有三条线-->
+        <button class="navbar-toggler text-dark" type="button" data-toggle="collapse" data-target="#content">
+            <!-- 三条横线-->
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- 导航栏的菜单项，大屏幕平铺，小屏幕隐藏-->
+        <div id="content" class="collapse navbar-collapse justify-content-end ">
+            <ul class="navbar-nav font-weight-bold  daohang_a">
+                <li class="nav-item">
+                    <a href="JD.html" class="nav-link text-primary">主页</a>
+                    </li>
+                <li class="nav-item">
+                    <a href="JDFJ.html" class="nav-link text-primary">主题房间</a>
+                </li>
+                <li class="nav-item">
+                    <a href="JDLS.html" class="nav-link text-primary">酒店历史</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="JDSS.html" class="nav-link text-primary dropdown-toggle"   data-toggle="dropdown">更多了解</a>
+                    <ul class="dropdown-menu p-0">
+                        <li class="nav-item li_bk">
+                            <a class="nav-link text-primary" href="JDSS.html">加盟我们</a>
+                        </li>
+                        <li class="nav-item li_bk">
+                            <a class="nav-link text-primary" href="JDSS.html">合作伙伴</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="JDLX.html" class="nav-link text-primary">联系我们</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+    <div class="ztjd_bj">
+        <div class="ztfj_zzc text-center">
+            <h1 class="font-weight-bold text-white ztfj_h1">酒店房间→Hotel Room</h1>
+        </div>
+    </div>
+</div>
+<!--今日特价-->
+<div class="container p-0 mb-5">
+    <!--标题-->
+    <div class="text-center mt-5 mb-5">
+        <h1 class="font-weight-bold">今 日 特 价</h1>
+        <p class="text-secondary">We all live in an age that belongs to the young at heart.</p>
+    </div>
+    <div class="row text-center m-0" id="tjfj">
+        <!-- <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card border-0 rounded-0 ztfj_imgfd">
+                <img class="w-100 ztfj_img" src="img/room1.jpg"/>
+            </div>
+            <a class="text-success" href="#"><h4>热带雨林</h4></a>
+            <h5>"¥299"
+                <small>/night</small>
+            </h5>
+            <button class="btn btn-outline-success">立即预订</button>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card border-0 rounded-0 ztfj_imgfd">
+                <img class="w-100 ztfj_img" src="img/room2.jpg"/>
+            </div>
+            <a class="text-info" href="#"><h4>海底世界</h4></a>
+            <h5>"¥299"
+                <small>/night</small>
+            </h5>
+            <button class="btn btn-outline-info">立即预订</button>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card border-0 rounded-0 ztfj_imgfd">
+                <img class="w-100 ztfj_img" src="img/room3.jpg"/>
+            </div>
+            <a class="text-warning" href="#"><h4>沙滩风情</h4></a>
+            <h5>"¥299"
+                <small>/night</small>
+            </h5>
+            <button class="btn btn-outline-warning">立即预订</button>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card border-0 rounded-0 ztfj_imgfd">
+                <img class="w-100 ztfj_img" src="img/room4.jpg"/>
+            </div>
+            <a class="text-danger" href="#"><h4>激情岁月</h4></a>
+            <h5>"¥299"
+                <small>/night</small>
+            </h5>
+            <button class="btn btn-outline-danger">立即预订</button>
+        </div> -->
+    </div>
+</div>
+<!--酒店预订信息-->
+<div class="djydxx">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2 col-sm-12 p-0">
+                <div><h1 class="jdyd_h1">酒店预订</h1></div>
+            </div>
+            <div class="col-lg-10 col-sm-12 d-flex align-items-center">
+                <form action="#">
+                        <div class="row">
+                                <div class="col-md-4 col-sm-12 p-0">
+                                    <div class="input-group ml-0 mr-3 mt-1 mb-1 col-sm-12">
+                                        入住时间 :<input type="date" class="form-control jdyd_input" placeholder="入住时间" required id="ydrz"/>
+                                    </div>
+                                    <div class="input-group ml-0 mr-3 mt-1 mb-1 col-sm-12">
+                                        退房时间 :<input type="date" class="form-control jdyd_input" placeholder="退房时间" required id="ydtf"/>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-12 p-0">
+                                    <div class="input-group ml-0 mr-3 mt-1 mb-1 col-sm-12">
+                                        用户姓名 :<input type="text" class="form-control jdyd_input" placeholder="请填写真实姓名" required pattern="^[0-9a-zA-Z\u4e00-\u9fa5]{2,16}$" id="ydxm"/>
+                                    </div>
+                                    <div class="input-group ml-0 mr-3 mt-1 mb-1 col-sm-12">
+                                        联系电话 :<input type="text" class="form-control jdyd_input" placeholder="请填写11位手机号" required pattern="1[3-9]\d{9}" id="yddh"/>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-12 p-0">
+                                    <div class="input-group ml-0 mr-3 mt-1 mb-1 col-sm-12">
+                                        房间类型 :<input type="text" class="form-control jdyd_input" placeholder="请选择房间类型" required list="XL" id="ydfj"/>
+                                        <datalist id="XL">
+                                            <option>热带雨林</option>
+                                            <option>海底世界</option>
+                                            <option>沙滩风情</option>
+                                            <option>激情岁月</option>
+                                        </datalist>
+                                    </div>
+                                    <div class="input-group ml-0 mr-3 mt-1 mb-1 col-sm-12">
+                                         &nbsp;<input type="button" class="form-control jdyd_input bg-info text-white font-weight-bold" value="提 交 预 订" id="ydtj">
+                                    </div>
+                                </div>
+                            </div>
+                </from>
+            </div>
+        </div>
+    </div>
+</div>
+<!--所有房间-->
+<div class="container p-0 mb-5">
+    <!--标题-->
+    <div class="text-center mt-5 mb-5">
+        <h1 class="font-weight-bold">所 有 房 间</h1>
+        <p class="text-secondary">We all live in an age that belongs to the young at heart.</p>
+    </div>
+    <div class="row text-center m-0" id="syfj">
+        <!-- <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card border-0 rounded-0 ztfj_imgfd">
+                <img class="w-100 ztfj_img" src="img/room1.jpg"/>
+            </div>
+            <a class="text-success" href="#"><h4>热带雨林</h4></a>
+            <h5>"¥299"
+                <small>/night</small>
+            </h5>
+            <button class="btn btn-outline-success">立即预订</button>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card border-0 rounded-0 ztfj_imgfd">
+                <img class="w-100 ztfj_img" src="img/room2.jpg"/>
+            </div>
+            <a class="text-info" href="#"><h4>海底世界</h4></a>
+            <h5>"¥299"
+                <small>/night</small>
+            </h5>
+            <button class="btn btn-outline-info">立即预订</button>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card border-0 rounded-0 ztfj_imgfd">
+                <img class="w-100 ztfj_img" src="img/room3.jpg"/>
+            </div>
+            <a class="text-warning" href="#"><h4>沙滩风情</h4></a>
+            <h5>"¥299"
+                <small>/night</small>
+            </h5>
+            <button class="btn btn-outline-warning">立即预订</button>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card border-0 rounded-0 ztfj_imgfd">
+                <img class="w-100 ztfj_img" src="img/room4.jpg"/>
+            </div>
+            <a class="text-danger" href="#"><h4>激情岁月</h4></a>
+            <h5>"¥299"
+                <small>/night</small>
+            </h5>
+            <button class="btn btn-outline-danger">立即预订</button>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card border-0 rounded-0 ztfj_imgfd">
+                <img class="w-100 ztfj_img" src="img/room1.jpg"/>
+            </div>
+            <a class="text-primary" href="#"><h4>热带雨林</h4></a>
+            <h5>"¥299"
+                <small>/night</small>
+            </h5>
+            <button class="btn btn-outline-primary">立即预订</button>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card border-0 rounded-0 ztfj_imgfd">
+                <img class="w-100 ztfj_img" src="img/room2.jpg"/>
+            </div>
+            <a class="text-dark" href="#"><h4>海底世界</h4></a>
+            <h5>"¥299"
+                <small>/night</small>
+            </h5>
+            <button class="btn btn-outline-dark">立即预订</button>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card border-0 rounded-0 ztfj_imgfd">
+                <img class="w-100 ztfj_img" src="img/room3.jpg"/>
+            </div>
+            <a class="text-secondary" href="#"><h4>沙滩风情</h4></a>
+            <h5>"¥299"
+                <small>/night</small>
+            </h5>
+            <button class="btn btn-outline-secondary">立即预订</button>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card border-0 rounded-0 ztfj_imgfd">
+                <img class="w-100 ztfj_img" src="img/room4.jpg"/>
+            </div>
+            <a class="text-danger" href="#"><h4>激情岁月</h4></a>
+            <h5>"¥299"
+                <small>/night</small>
+            </h5>
+            <button class="btn btn-outline-danger">立即预订</button>
+        </div> -->
+    </div>
+</div>
+<!--酒店结尾-->
+<div class="bg_color">
+    <div class="container text-secondary">
+        <div class="row pt-5 pb-4 border-bottom">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <h6 class="font-weight-bold text-white mb-4">加盟我们</h6>
+                <p>The world has become so fast paced that people don’t want to stand by reading a page of information, they would much rather look at a presentation and understand the message. It has come to a point</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <h6 class="font-weight-bold text-white mb-4">导航链接</h6>
+                <div class="row">
+                    <div class="col-4 pr-0">
+                        <ul class="list-unstyled">
+                            <li class="pb-3 "><a class="text-secondary jd_a" href="">主页</a></li>
+                            <li class="pb-3"><a class="text-secondary jd_a" href="">主题房间</a></li>
+                            <li class="pb-3"><a class="text-secondary jd_a" href="">环境介绍</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-4 p-0">
+                        <ul class="list-unstyled">
+                            <li class="pb-3"><a class="text-secondary jd_a" href="">服务设施</a></li>
+                            <li class="pb-3"><a class="text-secondary jd_a" href="">用户评价</a></li>
+                            <li class="pb-3"><a class="text-secondary jd_a" href="">联系我们</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-4 p-0"></div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <h6 class="font-weight-bold text-white mb-4">联系我们</h6>
+                <p>客服热线: 0371-XXXXXXXX</p>
+                <p>加盟电话: 135********</p>
+                <p>酒店地址:<br/>河南省郑州市××区××大道12580号</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <h6 class="font-weight-bold text-white mb-4">关注微信公众号</h6>
+                <img src="img/weixin.png"/>
+            </div>
+        </div>
+        <div class="text-center pt-3 pb-5">
+            <p>Copyright ©2019 All rights reserved | made with LONG - More Templates</p>
+        </div>
+    </div>
+    <a href="#" class="img_sjt"><img src="img/sjt.png"/></a>
+</div>
+
+<script src="js/xiaoguo.js"></script>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/JDFJ.js"></script>
+<script>
+    var btn=document.getElementById('ydtj');
+    console.log(btn);
+    btn.onclick=function(){
+        var xhr=new XMLHttpRequest();
+        xhr.onreadystatechange=function(){
+            if(xhr.readyState==4&&xhr.status==200){
+                var result=xhr.responseText;
+                console.log(result);
+            }
+        }
+        xhr.open('post','/lxwm/jdyd',true);
+        xhr.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+        var formdata="rztime="+ydrz.value+"&lktime="+ydtf.value+"&ydname="+ydxm.value+"&ydphone="+yddh.value+"&ydroom="+ydfj.value;
+        console.log(formdata)
+        xhr.send(formdata);
+    }
+</script>
+</body>
+</html>

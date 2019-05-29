@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-svale=1"/>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/yemian.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<!--主题房间头-->
+<div class="container-fluid p-0">
+        <!--导航栏-->
+    <div class="navbar  navbar-expand-lg navbar-light dhl_bg daohanglan p-0 pl-3 pr-3 navbar-fixed-top container ">
+        <!-- 导航第一项，不折叠，单独写-->
+        <a href="#" class="navbar-brand text-info m-0 p-0 h1"><img src="img/biaozhi.png"/></a>
+        <!-- 小屏幕时，右侧折叠按钮，按钮上有三条线-->
+        <button class="navbar-toggler text-dark" type="button" data-toggle="collapse" data-target="#content">
+            <!-- 三条横线-->
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- 导航栏的菜单项，大屏幕平铺，小屏幕隐藏-->
+        <div id="content" class="collapse navbar-collapse justify-content-end ">
+            <ul class="navbar-nav font-weight-bold  daohang_a">
+                <li class="nav-item">
+                    <a href="JD.html" class="nav-link text-primary">主页</a>
+                </li>
+                <li class="nav-item">
+                    <a href="JDFJ.html" class="nav-link text-primary">主题房间</a>
+                </li>
+                <li class="nav-item">
+                    <a href="JDLS.html" class="nav-link text-primary">酒店历史</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="JDSS.html" class="nav-link text-primary dropdown-toggle"   data-toggle="dropdown">更多了解</a>
+                    <ul class="dropdown-menu p-0">
+                        <li class="nav-item li_bk">
+                            <a class="nav-link text-primary" href="JDSS.html">加盟我们</a>
+                        </li>
+                        <li class="nav-item li_bk">
+                            <a class="nav-link text-primary" href="JDSS.html">合作伙伴</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="JDLX.html" class="nav-link text-primary">联系我们</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--联系我们-->
+<div class="lxwm_bj">
+    <div class="container">
+        <form action="#">
+            <div class="row">
+                <div class="col-md-6 lxwm_kuang">
+                    <h1 class="text-center">联系我们→Contact</h1>
+                    <div>
+                        <input type="text" class="lxwm_input" placeholder=" 姓名/Name" id="jdname" name="lxwm_name"/>
+                    </div>
+                    <div>
+                        <div class="vali_info">
+                            10个字符以内的文字、字母、数字!
+                        </div>
+                    </div> 
+                    <div>
+                        <input type="text" class="lxwm_input mt-4"  placeholder="电话/Phone" id="jdphone"    name="lxwm_phone"/>
+                    </div>
+                    <div>
+                        <div class="vali_info">
+                            请正确输入11位数字手机号!
+                        </div>
+                    </div>
+                    <div>
+                        <input type="text" class="lxwm_input mt-4"  placeholder="邮箱/Email" id="jdemail"    name="lxwm_email"/>
+                    </div>
+                    <div>
+                        <div class="vali_info">
+                            请输入正确的邮箱!
+                        </div>
+                    </div>
+                    <div>
+                        <textarea  class="lxwm_input mt-4" placeholder="留  言/Massage" id="jdcomment" cols="30" rows="5"     name="lxwm_textarea"></textarea>
+                    </div>
+                    <div>
+                        <div class="vali_info">
+                            留言内容为120字以内!
+                        </div>
+                    </div>
+                    <div class="text-center mt-3">
+                        <input type="button" class="lxwm_tijiao     font-weight-bold" value="提 交" id="tijiao"/>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<!--酒店结尾-->
+<div class="bg_color">
+    <div class="container text-secondary">
+        <div class="row pt-5 pb-4 border-bottom">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <h6 class="font-weight-bold text-white mb-4">加盟我们</h6>
+                <p>The world has become so fast paced that people don’t want to stand by reading a page of information, they would much rather look at a presentation and understand the message. It has come to a point</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <h6 class="font-weight-bold text-white mb-4">导航链接</h6>
+                <div class="row">
+                    <div class="col-4 pr-0">
+                        <ul class="list-unstyled">
+                            <li class="pb-3 "><a class="text-secondary jd_a" href="">主页</a></li>
+                            <li class="pb-3"><a class="text-secondary jd_a" href="">主题房间</a></li>
+                            <li class="pb-3"><a class="text-secondary jd_a" href="">环境介绍</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-4 p-0">
+                        <ul class="list-unstyled">
+                            <li class="pb-3"><a class="text-secondary jd_a" href="">服务设施</a></li>
+                            <li class="pb-3"><a class="text-secondary jd_a" href="">用户评价</a></li>
+                            <li class="pb-3"><a class="text-secondary jd_a" href="">联系我们</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-4 p-0"></div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <h6 class="font-weight-bold text-white mb-4">联系我们</h6>
+                <p>客服热线: 0371-XXXXXXXX</p>
+                <p>加盟电话: 135********</p>
+                <p>酒店地址:<br/>河南省郑州市××区××大道12580号</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <h6 class="font-weight-bold text-white mb-4">关注微信公众号</h6>
+                <img class="" src="img/weixin.png"/>
+            </div>
+        </div>
+        <div class="text-center pt-3 pb-5">
+            <p>Copyright ©2019 All rights reserved | made with LONG - More Templates</p>
+        </div>
+    </div>
+    <a href="#" class="img_sjt"><img src="img/sjt.png"/></a>
+</div>
+
+<script src="js/xiaoguo.js"></script>
+<script>
+
+    //获取按钮,绑定事件,在提交时保证所有框都赋值
+    var btn=document.getElementById('tijiao');
+    console.log(btn);
+    btn.onclick= function () {
+        var xhr=new XMLHttpRequest();
+        xhr.onreadystatechange=function(){
+            if(xhr.readyState==4&&xhr.status==200){
+                var result=xhr.responseText;
+                console.log(result);
+                if(result=='1'){
+                    //登录成功跳转
+                    alert("评论成功!");
+                    setTimeout(function(){
+                        window.location.href='JD.html';
+                    },1000);
+                    }else if(result=='0'){
+                        window.location.href='JDLX.html';
+                        alert('服务器未响应,请稍后再试!!!');
+                    }
+            }
+        }
+        xhr.open('post','/lxwm/lxwm',true);
+        xhr.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+        var formdata="jdname="+jdname.value+"&jdphone="+jdphone.value+"&jdemail="+jdemail.value+"&jdcomment="+jdcomment.value;
+        console.log(formdata)
+        xhr.send(formdata);
+    }
+
+
+//DOM功能:
+//1. 查找触发事件的元素
+//2. 绑定事件
+	//3. 查找要修改的元素
+	//4. 修改元素
+
+//1. 查找触发事件的元素
+//分别查找两个input元素
+var txtName=document.getElementsByName(
+	"lxwm_name"
+)[0];
+var txtPhone=document.getElementsByName(
+	"lxwm_phone"
+)[0];
+var txtEmail=document.getElementsByName(
+	"lxwm_email"
+)[0];
+var txtTextarea=document.getElementsByName(
+	"lxwm_textarea"
+)[0];
+//2. 绑定事件处理函数
+//获得焦点
+//当姓名文本框获得焦点时
+txtName.onfocus=txtPhone.onfocus=txtEmail.onfocus=txtTextarea.onfocus=function(){
+	//获得当前文本框:
+	var txt=this;
+	//给自己穿txt_focus
+	txt.className="lxwm_input";
+	//找到旁边的div，脱掉它的隐身斗篷
+	var div=txt.parentNode
+		        .nextElementSibling
+		        .children[0];
+	div.className="";
+}
+
+//失去焦点
+//当姓名文本框失去焦点时
+txtName.onblur=function(){
+	//定义正则表达式:
+	var reg=/^[0-9a-zA-Z\u4e00-\u9fa5]{1,10}$/;
+	//原位置要想执行剪切出去的代码，就要调用函数
+	vali.call(this,reg);
+	//用onblur中正确的this，代替vali中错误的this
+}
+
+//当手机框失去焦点时
+txtPhone.onblur=function(){
+	var reg=/^1[3-8]\d{9}$/;
+	vali.call(this,reg);
+}
+
+//当邮箱框失去焦点时
+txtEmail.onblur=function(){
+	var reg=/^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/;
+	vali.call(this,reg);
+}
+
+//当留言框失去焦点时
+txtTextarea.onblur=function(){
+	var reg=/^.{1,120}$/;
+	vali.call(this,reg);
+}
+
+
+//如果一段代码会被反复使用，则可提取到一个独立的function中
+function vali(reg){
+	//先获得当前文本框对象
+	var txt=this;//this->window->txtName/txtPwd
+	//脱掉自己的txt_focus
+	txt.className="lxwm_input";
+	//先找到旁边的div
+	var div=txt.parentNode
+						 .nextElementSibling
+						 .children[0];
+	//如果用正则验证当前文本框的内容通过
+	if(reg.test(txt.value)==true){
+        var yu=/\s/g;
+        if(yu.test(txt.value)){
+            div.className="vali_fail";
+        }
+		//就给旁边的div穿vali_success
+		div.className="vali_success";
+	}else{//否则
+		//就给旁边的div穿vali_fail
+		div.className="vali_fail";
+	}
+}
+
+</script>
+</body>
+</html>
