@@ -113,14 +113,14 @@ CREATE TABLE ztfj_syfj(
 );
 #所有房间表插入
 INSERT INTO ztfj_syfj VALUES
-("NULL","img/room1.jpg","热带雨林","299.00"),
-("NULL","img/room2.jpg","海底世界","299.00"),
-("NULL","img/room3.jpg","沙滩风情","299.00"),
-("NULL","img/room4.jpg","激情岁月","299.00"),
-("NULL","img/room1.jpg","热带雨林","299.00"),
-("NULL","img/room2.jpg","海底世界","299.00"),
-("NULL","img/room3.jpg","沙滩风情","299.00"),
-("NULL","img/room4.jpg","激情岁月","299.00");
+(NULL,"img/room1.jpg","热带雨林","299.00"),
+(NULL,"img/room2.jpg","海底世界","299.00"),
+(NULL,"img/room3.jpg","沙滩风情","299.00"),
+(NULL,"img/room4.jpg","激情岁月","299.00"),
+(NULL,"img/room1.jpg","热带雨林","299.00"),
+(NULL,"img/room2.jpg","海底世界","299.00"),
+(NULL,"img/room3.jpg","沙滩风情","299.00"),
+(NULL,"img/room4.jpg","激情岁月","299.00");
 
 
 #用户评论表
