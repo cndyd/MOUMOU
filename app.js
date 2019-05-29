@@ -8,7 +8,7 @@ const index= require('./routes/user.js');
 
 //创建web服务器
 var server=express();
-server.listen(3000);//监听
+server.listen(5050);//监听
 //托管静态资源到public
 server.use(express.static('public'));
 //托管资源img
